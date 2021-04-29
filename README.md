@@ -3,5 +3,6 @@ WRF usually does not provide a path variable that describes where to store outpu
 like the variable "opt_output_from_geogrid_path" in namelist.wps. For some environments like supercomputers with limited space
 for the home directory where source code is stored and workspaces for the data, such a variable could be helpful.
 Replacing the original files with files from this repository before compiling WPS will provide the path variable "opt_output_from_ungrib_path" directly after "opt_output_from_geogrid_path" in namelist.wps.
+
 Replace:
 in WPS4.2.1/geogrid/src
