@@ -6,4 +6,5 @@ Replacing the original files with files from this repository before compiling WP
 
 Replace:  
 gridinfo_module.F in WPS4.2.1/geogrid/src/  
-process_domain_module.F in WPS4.2.1/metgrid/src/
+process_domain_module.F in WPS4.2.1/metgrid/src/  
+datint.F WPS4.2.1/ungrib/src/
