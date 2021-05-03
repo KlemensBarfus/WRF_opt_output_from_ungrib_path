@@ -12,7 +12,8 @@ file_delete.F in WPS4.2.1/ungrib/src/
 read_namelist.F in WPS4.2.1/ungrib/src/  
 rrpr.F in WPS4.2.1/ungrib/src/  
 ungrib.F in WPS4.2.1/ungrib/src/  
-avg_tsfc.F in WPS4.2.1/util/src/ (and avgtsfc_ECHAM.F if needed)
-gridinfo_module.F with util_gridinfo_module.F in WPS4.2.1/util/src/
+avg_tsfc.F in WPS4.2.1/util/src/ (and avgtsfc_ECHAM.F if needed)  
+gridinfo_module.F with util_gridinfo_module.F in WPS4.2.1/util/src/  
+calc_ecmwf_p.F in WPS4.2.1/util/src/
 
 
