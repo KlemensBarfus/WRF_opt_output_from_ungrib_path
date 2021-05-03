@@ -5,12 +5,13 @@ for the home directory where source code is stored and workspaces for the data, 
 Replacing the original files with files from this repository before compiling WPS will provide the path variable "opt_output_from_ungrib_path" directly after "opt_output_from_geogrid_path" in namelist.wps.
 
 Replace:  
-gridinfo_module.F in WPS4.2.1/geogrid/src/  
+gridinfo_module.F with geogrid_gridinfo_module.F in WPS4.2.1/geogrid/src/ and rename is to geogrid_gridinfo_module.F 
 process_domain_module.F in WPS4.2.1/metgrid/src/  
 datint.F in WPS4.2.1/ungrib/src/  
 file_delete.F in WPS4.2.1/ungrib/src/  
 read_namelist.F in WPS4.2.1/ungrib/src/  
 rrpr.F in WPS4.2.1/ungrib/src/  
-ungrib.F in WPS4.2.1/ungrib/src/  
+ungrib.F in WPS4.2.1/ungrib/src/
+gridinfo_module.F with util_gridinfo_module.F in WPS4.2.1/util/src/
 
 
