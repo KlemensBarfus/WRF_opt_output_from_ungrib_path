@@ -67,7 +67,7 @@ program ungrib
     logical :: ordered_by_date
     integer :: debug_level
     character(len=3) :: out_format
-    character(len=MAX_FILENAME_LEN) :: opt_ouput_from_ungrib_path
+    character(len=MAX_FILENAME_LEN) :: opt_output_from_ungrib_path
     character(len=MAX_FILENAME_LEN) :: prefix
     logical :: add_lvls
     real, dimension(:) :: new_plvl
