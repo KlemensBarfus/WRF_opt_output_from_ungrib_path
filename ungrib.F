@@ -56,8 +56,8 @@ program ungrib
 
   interface
    subroutine read_namelist(hstart, hend, delta_time, ntimes,&
-    ordered_by_date, debug_level, out_format, prefix,    &
-    add_lvls, new_plvl, interp_type, ec_rec_len, pmin)
+    ordered_by_date, debug_level, out_format, opt_output_from_ungrib_path, &
+    prefix, add_lvls, new_plvl, interp_type, ec_rec_len, pmin)
   
     use misc_definitions_module
 
@@ -67,6 +67,7 @@ program ungrib
     logical :: ordered_by_date
     integer :: debug_level
     character(len=3) :: out_format
+    character(len=MAX_FILENAME_LEN) :: opt_ouput_from_ungrib_path
     character(len=MAX_FILENAME_LEN) :: prefix
     logical :: add_lvls
     real, dimension(:) :: new_plvl
