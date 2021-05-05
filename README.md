@@ -6,7 +6,8 @@ Replacing the original files with files from this repository before compiling WP
 
 Replace:  
 gridinfo_module.F with geogrid_gridinfo_module.F in WPS4.2.1/geogrid/src/ and rename it to gridinfo_module.F   
-process_domain_module.F in WPS4.2.1/metgrid/src/  
+process_domain_module.F in WPS4.2.1/metgrid/src/
+gridinfo_module.F in WPS4.2.1/metgrid/src/ with metgrid:gridinfo_module.F and rename it to gridinfo_module.F  
 datint.F in WPS4.2.1/ungrib/src/  
 file_delete.F in WPS4.2.1/ungrib/src/  
 read_namelist.F in WPS4.2.1/ungrib/src/  
