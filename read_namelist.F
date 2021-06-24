@@ -49,7 +49,8 @@ subroutine read_namelist(hstart, hend, delta_time, ntimes,&
   integer :: max_dom, io_form_geogrid
 
   character(len=3) :: out_format
-  character(len=MAX_FILENAME_LEN) :: prefix
+  !character(len=MAX_FILENAME_LEN) :: prefix
+  character(len=100) :: prefix 
   logical :: nocolons
 
   real :: target_end, incr
