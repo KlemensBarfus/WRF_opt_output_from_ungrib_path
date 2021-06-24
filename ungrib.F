@@ -95,7 +95,8 @@ program ungrib
   real :: level
   character (LEN=9) ::  field
   character (LEN=3) ::  out_format
-  character (LEN=MAX_FILENAME_LEN) ::  prefix
+  !character (LEN=MAX_FILENAME_LEN) ::  prefix
+  character (LEN=100):: prefix
   character (LEN=MAX_FILENAME_LEN) ::  opt_output_from_ungrib_path
   character (LEN=MAX_FILENAME_LEN) ::  temp_string
 
