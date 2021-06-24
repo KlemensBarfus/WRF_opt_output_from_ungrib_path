@@ -71,7 +71,8 @@ subroutine rrpr(hstart, ntimes, interval, nlvl, maxlvl, plvl, &
   character(LEN=24) :: hdate_output
   character(LEN=3)  :: out_format
   character(LEN=MAX_FILENAME_LEN)  :: opt_output_from_ungrib_path
-  character(LEN=MAX_FILENAME_LEN)  :: prefix
+  !character(LEN=MAX_FILENAME_LEN)  :: prefix
+  character(LEN=100):: prefix
   real :: xfcst, level
   character(LEN=9) :: field
 
